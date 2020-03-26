@@ -13,5 +13,6 @@ public class Main {
         httpServer.createContext("/", new SimpleHttpHandler());
         httpServer.setExecutor(Executors.newFixedThreadPool(CONFIG.threadPoolSize));
         httpServer.start();
+        System.out.println("SimpleHttp已启用.");
     }
 }
