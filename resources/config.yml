@@ -4,6 +4,11 @@ AccessType:
   'jpg': 'image/jpeg'
   'png': 'image/png'
   'gif': 'image/gif'
+  'wolf': 'font/woff'
+  'svg': 'image/svg+xml'
+  'eot': 'application/vnd.ms-fontobject'
+  'ttf': 'application/octet-stream'
+  'txt': 'text/plain'
 WebRoot: 'D:\webroot\'
 # 监听的端口
 ListenPort: 8080
