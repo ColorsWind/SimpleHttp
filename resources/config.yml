@@ -1,0 +1,17 @@
+AccessType:
+  'js': 'application/x-javascript'
+  'css': 'text/css'
+  'jpg': 'image/jpeg'
+  'png': 'image/png'
+  'gif': 'image/gif'
+WebRoot: 'D:\webroot\'
+# 监听的端口
+ListenPort: 8080
+# 单位 Bytes, 默认值为1M.
+MaxFileSize: 1048576
+# 线程池大小
+ThreadPoolSize: 10
+ImageProcess:
+  MaxWidth: 1024
+  MaxHeight: 1024
+Debug: true
