@@ -132,7 +132,7 @@ public class SimpleHttpHandler implements HttpHandler {
 			}
 			paramStr = requestBodyContent.toString();
 		}
-		return paramStr;
+		return paramStr == null ? "" : paramStr;
 	}
 
 }
